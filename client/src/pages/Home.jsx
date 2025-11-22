@@ -1,12 +1,9 @@
-import ProductCard from "../components/ProductCard";
-import { products } from "../data";
+import React from 'react'
 
-export default function Home() {
+const Home = () => {
   return (
-    <div style={{ display: "flex", flexWrap: "wrap" }}>
-      {products.map((p) => (
-        <ProductCard key={p.id} item={p} />
-      ))}
-    </div>
-  );
+    <div>Home</div>
+  )
 }
+
+export default Home
